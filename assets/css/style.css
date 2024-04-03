@@ -703,3 +703,54 @@ section {
   color: #fff;
   font-size: 14px;
 }
+
+/* Resume Section Styles */
+.resume-container {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resume-section-title {
+  font-size: 24px;
+  color: #007bff; /* Adjust the color to match your site's theme */
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume-skills span {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.resume-experience h4, .resume-education h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.resume-experience p, .resume-education p {
+  font-size: 16px;
+  color: #666;
+}
+
+.resume-section hr {
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.bi {
+  font-size: 1.5rem; /* Icon size */
+}
